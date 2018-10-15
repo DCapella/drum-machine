@@ -1,17 +1,9 @@
-import React from "react";
 import { connect } from "react-redux";
 
 import { MainDisplay } from "../components/MainDisplay.js";
+import * as actionCreators from "../actions/index.js";
 
 
-class App extends React.Component {
-  render() {
-    return (
-      <MainDisplay />
-    );
-  }
-}
+const mapPropsToState = state => state;
 
-const mapStateToProps = state => state;
-
-export default connect(mapStateToProps, null)(App);
+export default connect(mapPropsToState, actionCreators)(MainDisplay);

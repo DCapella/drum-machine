@@ -1,5 +1,5 @@
 # Drum Machine
-This is a React Redux Application that allows you to press keys or click and make music.
+This is a React Redux Application that allows you to press keys or click and make sounds from a drum set.
 
 # Built With:
 * HTML
